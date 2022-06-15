@@ -1,0 +1,20 @@
+﻿<Window x:Class="FiddlerCore.Demo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FiddlerCore.Demo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Closing="Window_Closing">
+    <Grid>
+        <TextBox Name="txt1" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="207" Width="390"/>
+        <Button Content="伪造证书" HorizontalAlignment="Left" Margin="405,10,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="绑定事件" HorizontalAlignment="Left" Margin="405,34,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Button Content="启动代理" HorizontalAlignment="Left" Margin="405,58,0,0" VerticalAlignment="Top" Click="Button_Click_2"/>
+        <Button Content="解绑事件" HorizontalAlignment="Left" Margin="405,82,0,0" VerticalAlignment="Top" Click="Button_Click_3"/>
+        <Button Content="停止代理" HorizontalAlignment="Left" Margin="405,106,0,0" VerticalAlignment="Top" Click="Button_Click_4"/>
+        <Button Content="测试访问" HorizontalAlignment="Left" Margin="462,10,0,0" VerticalAlignment="Top" Click="Button_Click_5"/>
+        <TextBox Name="txt2" HorizontalAlignment="Left" Margin="10,222,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="390" Height="203"/>
+
+    </Grid>
+</Window>
